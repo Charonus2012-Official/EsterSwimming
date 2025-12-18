@@ -64,3 +64,6 @@ st.dataframe(pool50, use_container_width=True, height=height50, hide_index=True)
 st.write("## Bazén 25m")
 st.dataframe(pool25, use_container_width=True, height=height25, hide_index=True)
 
+
+if st.button("Hey"):
+    st.balloons()
